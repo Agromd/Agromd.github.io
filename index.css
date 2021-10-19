@@ -1,0 +1,107 @@
+body{
+    background-image: url(PizzaBg.jpeg); 
+    background-size: 100%;  
+}
+#Ellipse1{
+    background: rgba(158, 72, 23, 0.51);
+    border-radius: 10% 90% 20% 80%;
+    position: absolute;
+    width: 706.03px;
+    height: 147.5px;
+    left: 687px;
+    top: 116px;
+}
+#HelloPizzaText{
+    position: absolute;
+    width: 511px;
+    height: 100px;
+    left: 17px;
+    top: -20px;
+    font-family: Fredericka the Great;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 118px;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 24px 9px 3px rgba(0, 0, 0, 0.51);
+}
+#PizzaLikeAtHomeText{
+    position: absolute;
+    width: 424px;
+    height: 40px;
+    left: 270px;
+    top: 80px;
+    font-family: Special Elite;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: 0.115em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 24px 9px 3px rgba(0, 0, 0, 0.51);
+}
+nav ul{
+    list-style: none;
+    position: absolute;
+    width: 530px;
+    height: 20px;
+    left: 800px;
+    top: 450px;
+}
+nav ul li{
+    display: inline-block;
+    margin:-10px;
+}
+#NavLine{
+    border: 1px solid #FFFFFF;
+    width: 60px;
+    margin-bottom: 5px;
+    transform: rotate(90deg);
+    }
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-family: Special Elite;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 148.5%;
+    letter-spacing: 0.205em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: all .5s;
+    
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 90%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+nav ul li a:hover {
+        color: #b3b3b3;
+        background-size: 100% 2px;
+    }
+#JoinUs{
+    position: absolute;
+    top: 720px;
+    left:1075px;
+    word-spacing: 30px;
+    font-size: 30px;
+}
+div a i{
+    color: #FFFFFF;
+    transition: all .5s;
+}
+div a i:hover{
+    color: #b3b3b3;
+}
+.©{
+    color: #b3b3b3;
+    position: absolute;
+    top: 729px;
+    left: 30px;
+}
